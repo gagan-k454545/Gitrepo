@@ -1,0 +1,107 @@
+activity 2
+$ git init
+$ echo >1.txt
+$ git add .
+git commit -m "this"
+$ git branch b1
+$ git checkout b1
+echo >this.txt
+$ git add .$ 
+git commit -m "this"
+$ git checkout master
+
+$ git merge b1
+
+activity 3
+$ git init
+
+$ echo >this.txt
+$ git add .
+$ git commit -m "t"
+$ git stash
+$ git stash save "this"
+$ git stash apply
+$ git stash pop
+$ git stash show
+$ git stash list
+$ git stash show -p
+$ git stash drop
+$ git stash push -m "t"
+
+Activity 4
+git clone https://github.com/gagan-k454545/Git.git
+
+Activity 5
+$ git branch b1
+$ git checkout b1
+$ git add .
+ch
+$ git commit -m "t"
+
+$ git checkout master
+
+$ git rebase b1
+6 same 2 
+
+activit 7 
+$ git init
+echo >this.txt
+$ git add .
+$ git commit -m "tthis"
+git tag v1
+git add .
+git commit
+git tag
+git tag v2
+git add .
+git commit -m 
+git show v1
+git diff v1 v2
+git log
+git checkout v1
+git tag -d v1
+
+8 activity
+ git init
+echo>t.txt
+dir
+git commit -m "1"
+git log
+git log --oneline
+git branch b1
+b2
+b3
+git checkout b1
+echo >thisss.txt
+git add .
+git commit 
+echo>tt.txt
+add.
+git commit git log 
+git log --oneline
+dir
+
+9 activit
+ git init
+ echo>t.txt
+git add .
+git commit 
+git b1
+git checkotu b1
+echo >t.txt
+add . commt
+git checout master
+git log
+git log --oneline
+git cherry-pick 677e83f
+
+
+10 activity
+git log --autho ="ggg" --since ="2023-06-09" --until ="3434-4-4"
+11 activity
+git show 677e83f
+git log -n 1 677e83f
+git log --format=%B -n 677e83f
+
+12 act 
+git revert 677e83f
